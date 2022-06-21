@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+.gbody{
+    width: 50%;
+    margin:100px auto;
+    background-color: cornsilk;
+    padding: 30px;
+    
+}
+.ghead{
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+   
+}
+.fbox{
+    font-size: 25px;
+    
+}
+.inb{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+}
+.hg{
+    width:34%;
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+    color: blue;
+    
+}
+.inb:focus{
+    outline: 2px solid blue;
+}
+input[type=date]{
+    width: 35%;
+    height:30px;
+    border-radius: 10px;
+}
+select{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+}
+.fas{
+    margin: 6px 15px;
+}
+input[type=submit]{
+    width: 60%;
+    height: 40px;
+    border-radius: 16px;
+    display: block;
+    margin: auto;
+}
